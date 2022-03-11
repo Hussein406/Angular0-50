@@ -1,1 +1,9 @@
-<h1>Project Starter</h1>
+<div class="container">
+  <h3>Double Click on the image to <i class="fa-solid fa-heart"></i> it</h3>
+  <small
+    >You liked it <span id="times"> {{ times }} </span> times</small
+  >
+  <div class="loveMe" (dblclick)="onClick()" >
+    <i #heart class="fa-solid fa-heart"></i>
+  </div>
+</div>
